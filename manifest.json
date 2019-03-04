@@ -1,0 +1,16 @@
+{
+  "name": "一键打开",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Chrome浏览器插件,一键打开微博、Facebook、instagram、Twitter等",
+  "browser_action": {
+    "default_icon": "./images/weibo.ico",
+    "default_title": "一键打开",
+    "default_popup": "./html/popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "https://*/*",
+    "http://*/*"
+  ]
+}
